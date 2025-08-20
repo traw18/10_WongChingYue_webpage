@@ -66,7 +66,7 @@ nav {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .nav-links li {
@@ -78,7 +78,6 @@ nav {
     color: #08525f;
     font-size: 15px;
     text-transform: uppercase;
-    text
 
 }
 
@@ -351,7 +350,6 @@ nav {
     font-size: 16px;
     color: #666;
     line-height: 1.8;
-        margin-bottom: 5px;
 }
 
 .blog {
@@ -481,11 +479,11 @@ footer {
 }
 
     .hero-text h1 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .hero-text p {
-        font-size: 9px;
+        font-size: 8px;
     }
 
     .history {
