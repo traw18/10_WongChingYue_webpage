@@ -533,7 +533,7 @@ footer {
 
     .hero-text p {
         font-size: 8px;
-        margin-bottom: 220px;
+        margin-bottom: 250px;
     }
 
     .services h2 {
@@ -542,6 +542,12 @@ footer {
     .highlights h2 {
         font-size: 25px;
         margin: 10px;
+    }
+    .highlight-box h3 {
+        font-size: 20px;
+    }
+    .highlight-box p {
+        font-size: 14px;
     }
     .introduction, .thehistory, .culture, .must-visits {
         padding: 20px 10px;
