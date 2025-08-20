@@ -542,6 +542,11 @@ footer {
         font-size: 25px;
         margin: 10px;
     }
+    .introduction, .thehistory, .culture, .must-visits {
+        padding: 20px 10px;
+        margin-bottom: 30px;
+        height: 16rem;
+    }
     .introduction h2, .thehistory h2, .culture h2, .must-visits h2 {
         font-size: 22px;
     }
