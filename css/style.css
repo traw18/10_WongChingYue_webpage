@@ -621,6 +621,9 @@ footer {
         margin-bottom: 250px;
     }
 
+    .about-us h2 {
+        font-size: 25px;
+    }
     .about-us p {
         font-size: 14px;
         line-height: 1.6;
