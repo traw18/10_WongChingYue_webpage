@@ -588,10 +588,11 @@ footer {
     }
     .hero-text h1 {
         font-size: 38px;
+        line-height: 90%;
     }
 
     .hero-text p {
-        font-size: 8px;
+        font-size: 9px;
         margin-bottom: 250px;
     }
     .feature-post p {
