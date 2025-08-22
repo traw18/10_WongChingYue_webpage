@@ -562,7 +562,7 @@ footer {
         margin: 10px 0;
         text-align: center;
     }
-
+    
     .hamburger {
         display: block;
     }
@@ -600,6 +600,8 @@ footer {
 
     .ig-container {
         grid-template-columns: 1fr;
+        padding: 10px 10px;
+        width: 100%;
     }
     .feature-posts h2 {
         font-size: 25px;
