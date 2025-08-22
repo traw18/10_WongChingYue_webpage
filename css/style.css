@@ -290,6 +290,11 @@ nav {
     padding: 30px;
 }
 
+.ig-container > div {
+    max-width: 540px; /* Match Instagram embed max-width */
+    width: 100%; /* Ensure responsiveness */
+    margin-bottom: 20px; /* Add spacing between posts */
+}
 .googlemap {
     display: flex;
     justify-content: center;
