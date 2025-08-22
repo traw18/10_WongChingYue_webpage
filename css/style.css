@@ -598,11 +598,25 @@ footer {
         line-height: 1.6;
     }
 
-    .ig-container {
+    /* .ig-container {
         grid-template-columns: 1fr;
         padding: 10px 10px;
         width: 100%;
+    } */
+
+    .ig-container {
+        flex-direction: row;
+        justify-content: center; /* Centers the row of posts */
+        align-items: flex-start;
+        flex-wrap: nowrap; /* Keeps them in one row if space allows; change to 'wrap' if you want wrapping on medium screens */
     }
+
+    .ig-container > div {
+        width: auto; /* Allows natural sizing based on embed */
+        margin: 0 10px; /* Horizontal spacing between posts */
+        margin-bottom: 0;
+    }
+
     .feature-posts h2 {
         font-size: 25px;
     }
