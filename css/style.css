@@ -265,6 +265,7 @@ nav {
     padding: 40px ;
     padding-bottom: 60px;
     margin-top: 0px;
+    text-align: center;
 }
 
 .feature-posts h2 {
@@ -594,6 +595,7 @@ footer {
     }
     .feature-post p {
         font-size: 14px;
+        line-height: 1.6;
     }
 
     .ig-container {
