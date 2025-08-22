@@ -127,6 +127,8 @@ nav {
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .hero-text p {
@@ -134,8 +136,9 @@ nav {
     margin-bottom: 180px;
     text-transform: uppercase;
     text-shadow: 3px 3px 6px rgba(0,0,0,1.8);
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards 0.5s;
 }
-
 .hero-text button {
     background: #00bcd4;
     color: #fff;
@@ -289,7 +292,7 @@ nav {
     /* background-color: #f5f5f5; */
     padding: 40px ;
     padding-bottom: 60px;
-    margin-top: 0px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -509,7 +512,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 60px auto;
+    margin: 20px auto;
     width: 100%;
     max-width: 800px;
 }
@@ -641,7 +644,7 @@ footer {
         font-size: 25px;
     }
     .feature-post p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.6;
     }
 
@@ -670,7 +673,7 @@ footer {
     .introduction p, .thehistory p, .culture p, .must-visits p {
         font-size: 14px;
         line-height: 1.6;
-        text-align: justify;
+        text-align: center;
     }
     .blog h2 {
         font-size: 25px;
@@ -701,4 +704,14 @@ footer {
         max-width: 100%; 
         margin: 40px auto; 
     } */
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
