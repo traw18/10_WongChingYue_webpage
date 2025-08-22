@@ -98,6 +98,7 @@ nav {
 .hero {
     position: relative;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .hero img {
@@ -258,6 +259,56 @@ nav {
     color: #666;
 }
 
+
+.feature-posts {
+    /* background-color: #f5f5f5; */
+    padding: 40px ;
+    padding-bottom: 60px;
+    margin-top: 0px;
+}
+
+.feature-posts h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--primary-2);
+}   
+
+.feature-posts p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.ig-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 30px;
+}
+
+.googlemap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px; /* Matches iframe height for vertical centering */
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 50px;;
+}
+
+.googlemap iframe {
+    width: 100%;
+    max-width: 600px; /* Limits width on large screens */
+    height: 450px; /* Default height */
+    border: 0;
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
 .history-text {
     flex: 1;
     padding: 20px;
@@ -306,6 +357,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
+    margin-top: 30px;
 }
 
 .service-box {
@@ -535,7 +587,17 @@ footer {
         font-size: 8px;
         margin-bottom: 250px;
     }
+    .feature-post p {
+        font-size: 14px;
+    }
 
+    .ig-container {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .feature-posts h2 {
+        font-size: 25px;
+    }
     .services h2 {
         font-size: 25px;
     }
@@ -563,6 +625,16 @@ footer {
     }
     .blog h2 {
         font-size: 25px;
+    }
+
+    .googlemap {
+        min-height: 300px; /* Reduced height for mobile */
+        padding: 10px 0;
+    }
+
+    .googlemap iframe {
+        height: 300px; /* Reduced height for mobile */
+        max-width: 100%; /* Full width on mobile */
     }
 
     .history {
