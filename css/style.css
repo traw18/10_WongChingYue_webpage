@@ -593,7 +593,6 @@ footer {
 
     .ig-container {
         grid-template-columns: 1fr;
-        align-items: center;
     }
     .feature-posts h2 {
         font-size: 25px;
