@@ -261,7 +261,7 @@ nav {
 }
 
 .about-us {
-    padding: 40px 0;
+    padding: 20px 0;
     background: #fff;
 }
 
@@ -627,11 +627,6 @@ footer {
         text-align: justify;
     }
 
-    .feature-post p {
-        font-size: 14px;
-        line-height: 1.6;
-    }
-
     .ig-container {
         grid-template-columns: 1fr;
         padding: 10px 0px;
@@ -642,6 +637,12 @@ footer {
     .feature-posts h2 {
         font-size: 25px;
     }
+    .feature-post p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+
     .services h2 {
         font-size: 25px;
     }
