@@ -354,29 +354,29 @@ nav {
 }
 
 .ig-container > div {
-    max-width: 540px; /* Match Instagram embed max-width */
-    width: 100%; /* Ensure responsiveness */
-    margin-bottom: 20px; /* Add spacing between posts */
+    max-width: 540px; 
+    width: 100%; 
+    margin-bottom: 20px; 
 }
 
 .ig-container > div {
-    max-width: 540px; /* Match Instagram embed max-width */
-    width: 100%; /* Ensure responsiveness */
-    margin-bottom: 20px; /* Add spacing between posts */
-    height: 750px; /* Set a fixed height for uniformity */
-    overflow: hidden; /* Hide any overflow content */
-}
+    max-width: 540px;
+    width: 100%; 
+    margin-bottom: 20px; 
+    height: 750px; 
+    overflow: hidden;
+} 
 
 .ig-container > div iframe {
     width: 100%;
-    height: 100%; /* Ensure iframe fills the container */
-    object-fit: cover; /* Maintain aspect ratio and fill space */
+    height: 100%; 
+    object-fit: cover; 
 }
 .googlemap {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 450px; /* Matches iframe height for vertical centering */
+    min-height: 450px; 
     width: 100%;
     padding: 20px 0;
     margin-bottom: 50px;;
@@ -384,11 +384,11 @@ nav {
 
 .googlemap iframe {
     width: 100%;
-    max-width: 600px; /* Limits width on large screens */
-    height: 450px; /* Default height */
+    max-width: 600px; 
+    height: 450px; 
     border: 0;
-    border-radius: 5px; /* Optional: rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .history-text {
@@ -607,7 +607,7 @@ nav {
 }
 
 .contact-us .social-icons a:hover {
-    color: #00bcd4; /* Matches your theme on hover */
+    color: #00bcd4; 
 }
 
 footer {
@@ -692,7 +692,7 @@ footer {
     .ig-container {
         grid-template-columns: 1fr;
         padding: 10px 0px;
-        width: 100%;
+        max-width: 100%;
         justify-content: center;
     }
 
